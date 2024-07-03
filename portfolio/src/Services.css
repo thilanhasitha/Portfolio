@@ -1,0 +1,68 @@
+.services{
+    color: azure;
+    font-size: 15px;
+    margin-top: 20px;
+   
+
+}
+.word2{
+    color: yellow;
+    font-size: 50px;
+}
+.word1{
+    color: azure;
+    font-size: 50px;
+}
+.pic1{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.pic2{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.pic3{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.services-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     gap: 3rem; 
+    margin-top: 100px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+}
+.services-box{
+    align-items: center;
+    text-align: center;
+    flex:1 1 20rem;
+    padding: 1rem 2rem 4rem;
+    background-color: black;
+    border-radius: 2rem;
+    border: .2rem solid red;
+    transition: .9s ease;
+}
+
+.btn{
+    border-radius: 5px ;
+    margin-top: 15px;
+
+}
+/* .btn:hover{
+    color: aqua;
+    
+} */
+.services-box:hover{
+    border-color: blueviolet;
+     transform: scale(1.5); 
+
+}

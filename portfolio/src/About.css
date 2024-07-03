@@ -1,0 +1,54 @@
+
+.content{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    background-color:#04152d ;
+    
+    
+
+}
+.list{
+    display: block;
+}
+.about{
+    color: azure;
+    margin-left: 40px;
+    font-size: 50px;
+}
+.work{
+    margin-left: 40px;
+    color: azure;
+    text-align: center;
+    margin-top: 0px;
+}
+.line{
+    display: flex;
+}
+.topic1{
+    color: yellowgreen;
+
+}
+.topic2{
+    color: yellowgreen;
+}
+.topic3{
+    color: yellowgreen;
+}
+.topic4{
+    color:yellowgreen
+}
+.student{
+    width: 600px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 80px;
+    border-radius: 15px solid red;
+    text-align: center;
+    display: flex;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}

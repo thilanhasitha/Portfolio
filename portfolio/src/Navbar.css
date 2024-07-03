@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: #04152d ;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.header title{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.menu{
+    display: flex;
+    padding: 10px;
+}
+.menuitems{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+.menuitems a{
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.btn1{
+   
+    margin: 0px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+    margin-right: 5px;
+
+
+}
+.btn1:hover{
+    border-radius: 12px solid red;
+    font-size: 30px;
+    background-color: yellow;
+
+}
+.title{
+    color: azure;
+    margin-left: 40px;
+    font-size: 50px;          
+    
+}
